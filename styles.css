@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 3%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #37859f, #5b98ae, #7aaabd, #98becc, #b5d1dc, #afd1e1, #abd0e6, #a7cfeb, #89b7e8, #789de2, #7980d6, #845ec2);
+    /* background: rgb(17,14,76); */
+    /* background: linear-gradient(125deg, rgba(17,14,76,1) 0%, rgba(42,42,96,1) 29%, rgba(119,123,145,1) 100%); */
+    background-repeat: no-repeat;
+    color: #000000;
+    
+}
+
+#login {
+    background-color: rgba(255, 255, 255, 0.6);
+    box-sizing: border-box;
+    width: 690px;
+    box-shadow: 0rem 0 5rem rgba(0,0,0,1);
+    padding: 20px;
+    border-radius: 12px;
+    border: 2.5px solid rgba(0, 0, 0, 0.2);
+    max-width: 70%;
+}
+
+h2 {
+    font-size: 35px;
+    text-align: center;
+    padding: 1rem;
+    color: #333333;
+}
+
+label{
+    font-weight: 500;
+    font-size: 20px;
+}
+form{
+    margin-top: 2rem;
+}
+
+table{
+    position: relative;
+    width:100%;
+}
+
+td{
+    padding: 10px 5px 5px 5px;
+    /* padding-top: 5px; */
+}
+
+td input{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+textarea{
+    width: 638px;
+    height: 180px;
+    border-radius: 10px;
+}
+
+td .hobby,
+td .gender{
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+td .hobby label,
+td .gender label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qualif-table td ,
+.qualif-table input{
+    /* border: 5px; */
+    border-width: 1px;
+    border-color: #000000;
+    margin: 0;
+    padding: 0;
+    border-radius: 0px;
+
+}
+
+.btn{
+    display: flex;
+    justify-content:space-around;
+}
+
+button{
+    border-radius:10px;
+    background-color: #a6acff;
+    height: 40px;
+    width: 120px;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+#reset:hover{
+    background-color: #ff44448f;
+    transition: all .35s ease;
+
+}
+
+button:hover{
+    transform: translate(1px,1px);
+
+}
