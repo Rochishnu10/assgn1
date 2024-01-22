@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 
 body {
@@ -8,6 +9,7 @@ body {
     padding: 3%;
     margin: 0;
     display: flex;
+    flex-direction:column ;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
@@ -19,7 +21,19 @@ body {
     
 }
 
+header{
+    /* display: flexbox; */
+    /* position:absolute; */
+
+    top:0;
+    align-items: center;
+    /* height: 30px; */
+    font-size: 30px;
+    font-weight: 600;
+}
+
 #login {
+    margin-top: 4rem;
     background-color: rgba(255, 255, 255, 0.6);
     box-sizing: border-box;
     width: 690px;
@@ -38,14 +52,17 @@ h2 {
 }
 
 label{
+    position: relative;
     font-weight: 500;
     font-size: 20px;
 }
 form{
+
     margin-top: 2rem;
 }
 
 table{
+
     position: relative;
     width:100%;
 }
@@ -56,6 +73,7 @@ td{
 }
 
 td input{
+
     position: relative;
     height: 30px;
     width: 100%;
@@ -63,7 +81,8 @@ td input{
 }
 
 textarea{
-    width: 638px;
+    width: 100%;
+    max-width: 638px;
     height: 180px;
     border-radius: 10px;
 }
